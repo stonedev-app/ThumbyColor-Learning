@@ -1,10 +1,10 @@
-# Test
+# ThumbyColor-Learning
 
 ## ゲーム概要
 学習用のテストプロジェクト
 
 ## デバイス上のパス
-/Games/Test/
+/Games/ThumbyColor-Learning/
 
 ## ファイル構成
 テンプレートそのまま
@@ -56,7 +56,7 @@ from engine_math import Vector2, Vector3
 class Player(Sprite2DNode):
     def __init__(self):
         super().__init__(self)
-        self.texture = TextureResource("/Games/Test/img.bmp")
+        self.texture = TextureResource("/Games/ThumbyColor-Learning/img.bmp")
         self.position = Vector2(0, 0)
 
     def tick(self, dt):
