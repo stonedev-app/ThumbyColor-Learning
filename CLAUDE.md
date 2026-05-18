@@ -69,6 +69,9 @@ camera.position = Vector3(0, 0, 1)  # z=1 が標準
 parent.add_child(child)  # child は parent の座標系に従う
 ```
 
+## 学習計画
+[docs/learning-plan.md](docs/learning-plan.md)
+
 ## 学習メモ
 
 <!-- 試した内容・ハマりポイント・気づきをここに記録していく -->
